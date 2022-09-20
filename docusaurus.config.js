@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Jitsi Pro',
   tagline: 'Créer une alternative à Zoom/Microsoft Teams Rooms',
-  url: 'https://snapcom-factory.github.io',
+  url: 'https://elianero.github.io',
   baseUrl: '/jitsibox-pro/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'snapcom-factory', // Usually your GitHub org/user name.
+  organizationName: 'elianero', // Usually your GitHub org/user name.
   projectName: 'jitsibox-pro', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -48,9 +48,9 @@ const config = {
 
           editUrl: ({locale,  docPath}) => {  
           if (locale !== 'fr') {
-            return `https://github.com/snapcom-factory/jitsibox-pro/tree/wiki/new-project/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`;
+            return `https://github.com/elianero/jitsibox-pro/tree/main/tree/wiki/i18n/${locale}/docusaurus-plugin-content-docs/current/${docPath}`;
           }
-          return `https://github.com/snapcom-factory/jitsibox-pro/blob/wiki/new-project/docs/${docPath}`;
+          return `https://github.com/elianero/jitsibox-pro/tree/main/blob/wiki/docs/${docPath}`;
         },
         },
         theme: {
@@ -79,7 +79,7 @@ const config = {
             label: 'Menu',
           },
           {
-            href: 'https://github.com/snapcom-factory/jitsibox-pro',
+            href: 'https://github.com/elianero/jitsibox-pro/tree/main',
             label: 'GitHub',
             position: 'right',
           },
@@ -119,7 +119,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/snapcom-factory/jitsibox-pro',
+                href: 'https://github.com/elianero/jitsibox-pro/tree/main',
               },
             ],
           },
